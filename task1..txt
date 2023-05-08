@@ -1,0 +1,24 @@
+Difference between HTTP1.1 and HTTP2!!!
+
+    HTTP1.1:
+
+        HTTP1.1 works on the textual format.
+        It works in over 15 years.
+        It compresses data by itself.
+        It uses requests resource in-lining for use getting multiple pages.
+        It loads a single request for every TCP connection.
+   
+    HTTP2:
+    
+        It is faster and more reliable than the http1.
+        It works on the binary protocol.
+        It used push frame by server that collects all multiple pages.
+        It avoids network delay by using multiplexing.
+
+Objects and its internal representation in javascript!!!
+
+        Objects is most important data types and forms the building blocks for modern javascript.
+        JavaScript primitive data types (Number, String, Boolean, Null,Undefined & Symbol).
+        Objects are more complex and each object may contain any combination of these primitive data types as well as reference data types.
+        Object is a reference data types. Variables that are assigned a reference value.
+        
